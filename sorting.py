@@ -8,3 +8,6 @@ def bubble_sort(arr):
                 arr[j+1] = arr[j]
                 arr[j] = temp
                 yield arr
+
+def insertion_sort(arr):
+    pass
