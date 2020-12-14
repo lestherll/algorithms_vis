@@ -23,4 +23,11 @@ def insertion_sort(arr):
             arr[cur_pos] = curr_val
             yield arr
         
-        
+def selection_sort(arr):
+    length = len(arr)
+    new_arr = []
+    for i in range(length):
+        min_index = arr.index(min(arr))
+        min_value = arr.pop(min_index)
+        new_arr.append(min_value)
+        yield new_arr
