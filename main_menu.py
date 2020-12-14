@@ -5,7 +5,8 @@ from visualiser import visualise
 
 import sorting
 
-N = int(input("Enter number of elements: "))     # number of elements
+
+N = 30 #int(input("Enter number of elements: "))     # number of elements
 array = [i + 1 for i in range(N)]   # array to sort
 shuffle(array)  #shuffle array
 
